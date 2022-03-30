@@ -3,4 +3,4 @@ import sys
 
 major_version = sys.version_info.major
 minor_version = sys.version_info.minor
-print(f'Hello from Binder Python major_version.minor_version!')
+print(f'Hello from Binder Python {}.{}!'.format(major_version, minor_version))
